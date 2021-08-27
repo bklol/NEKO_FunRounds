@@ -13,7 +13,7 @@ public void NEKO_OnFundRonudStart(int RoundIndex) {
 
 	if(index != RoundIndex)
 		return;
-	PrintToChatAll("当前回合为 “透视回合！”");
+	PrintToChatAll("当前回合为 %s", roundname);
 }
 
 public Action PlayerSpawn(Event event, const char[] name, bool dontBroadcast) 
